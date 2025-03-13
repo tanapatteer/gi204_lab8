@@ -5,21 +5,28 @@ using System.Collections.Generic;
 
 public class GravityF : MonoBehaviour
 {
-    Rigidbody rb;
+    private Rigidbody rb;
 
     const float G = 0.00667f;
 
     public static List<GravityF> gravityObjectList;
-
+    
+    //orbit
+    [SerializeField] private bool planets = false;
+    [SerializeField] private int orbetSpeed = 1000;
     private void Awake()
     {
         rb = GetComponent<Rigidbody>();
         if (gravityObjectList == null)
         {
             gravityObjectList = new List<GravityF>();
-            gravityObjectList.Add(this);
+            
         }
-        gravityObjectList = new List<GravityF>();
+        gravityObjectList.Add(this);
+        if (! planets)
+        {
+            rb.AddForce(Vector3.left * orbetSpeed);
+        }
     }
 
     private void FixedUpdate()
@@ -31,10 +38,7 @@ public class GravityF : MonoBehaviour
             {
                  Attract(obj);     
             }
-           
         }
-       
-        
     }
 
     void Attract(GravityF other)

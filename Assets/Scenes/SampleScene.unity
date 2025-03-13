@@ -484,6 +484,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1001 &582726240
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -498,7 +500,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -7.241909
+      value: -5.33
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalPosition.y
@@ -506,7 +508,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.4443913
+      value: -4.28
       objectReference: {fileID: 0}
     - target: {fileID: 4030326048459444, guid: 7e4bfb3c6ba1d4bc4ba31d585abdae0f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -591,6 +593,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -654,7 +658,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.82
+      value: 2.63
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -662,7 +666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -2.93
+      value: -3.63
       objectReference: {fileID: 0}
     - target: {fileID: 4431810912100570, guid: 5d1442ad8c11442988e0eca5d8af73f0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -747,6 +751,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1001 &944304665
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -761,7 +767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -9.25
+      value: -9.66
       objectReference: {fileID: 0}
     - target: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       propertyPath: m_LocalPosition.y
@@ -769,7 +775,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -3.63
+      value: 1.67
       objectReference: {fileID: 0}
     - target: {fileID: 4387678931267766, guid: 1818e1a170ef94c3aacee2ba50057521, type: 3}
       propertyPath: m_LocalRotation.w
@@ -823,7 +829,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 944304666}
   serializedVersion: 4
-  m_Mass: 10
+  m_Mass: 1000
   m_Drag: 0
   m_AngularDrag: 0.05
   m_CenterOfMass: {x: 0, y: 0, z: 0}
@@ -854,6 +860,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1001 &1201631288
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -868,7 +876,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693579709242440, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.24
+      value: -4.29
       objectReference: {fileID: 0}
     - target: {fileID: 4693579709242440, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
       propertyPath: m_LocalPosition.y
@@ -876,7 +884,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4693579709242440, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -6.51
+      value: -6.84
       objectReference: {fileID: 0}
     - target: {fileID: 4693579709242440, guid: f9a741bb8762344c6a2a9cb4217ef728, type: 3}
       propertyPath: m_LocalRotation.w
@@ -961,6 +969,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1001 &1474098345
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1068,6 +1078,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 1
+  orbetSpeed: 0
 --- !u!1001 &1843360162
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1082,7 +1094,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.81
+      value: 3.44
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1090,7 +1102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.84
+      value: -7.55
       objectReference: {fileID: 0}
     - target: {fileID: 446090, guid: 84cc3cd234dfc9d4d9d2e92c0eb0af75, type: 3}
       propertyPath: m_LocalRotation.w
@@ -1175,6 +1187,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1001 &1849946128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1292,6 +1306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9bf3b85b7c5033543b56f7dc81151b16, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  planets: 0
+  orbetSpeed: 1000
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
